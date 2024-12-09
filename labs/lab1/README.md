@@ -5,13 +5,13 @@ Following the [video instructions](https://youtu.be/ApGz8tpNLgo), get this [[vpc
 
 Here is the preview:
 
-![[vpc_preview.png]]
+![vpc_preview](assets/vpc_preview.png)
 
 According to the VPC's route table private subnets have access to the internet.
 
 ![[public_rt.png]]
-### Creation of two [[elastic_ip|elastic IPs]]
-Following this [video instructions](), create the elastic IP addresses:
+### Creation of two elastic IPs
+Following this [video instructions](https://youtu.be/5ZJTESbN9lI), create the elastic IP addresses:
 
 ![[elastic_ips.png]]
 ## Creation of a GNU/Linux instance
