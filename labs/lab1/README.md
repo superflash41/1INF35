@@ -33,8 +33,7 @@ Finally, establish the `ssh` connection:
 
 ![ubuntu](assets/ubuntu.png)
 
-> [!Note] to use the private key file it must be restricted to certain permissions. You might need to `chmod 400 key.pem`.
-
+> To use the private key file it must be restricted to certain permissions. You might need to `chmod 400 key.pem`.
 
 ![neofetch](assets/neofetch.png)
 ## Creation of a Windows Server 2022 instance
