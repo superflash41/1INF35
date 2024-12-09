@@ -9,13 +9,13 @@ Here is the preview:
 
 According to the VPC's route table private subnets have access to the internet.
 
-![[public_rt.png]]
+![public_rt](assets/public_rt.png)
 ### Creation of two elastic IPs
 Following this [video instructions](https://youtu.be/5ZJTESbN9lI), create the elastic IP addresses:
 
-![[elastic_ips.png]]
+![elastic_ips](elastic_ips.png)
 ## Creation of a GNU/Linux instance
-Then create the [[ubuntu_config.pdf|instance]] and link the elastic IP address.
+Then create the [instance](assets/ubuntu_config.pdf) and link the elastic IP address.
 
 The command to `ssh` into an EC2 instance goes as follows:
 ```bash
@@ -31,26 +31,26 @@ Replace `path/to/key.pem` with the key file's path and `instance-public-dns` wit
 
 Finally, establish the `ssh` connection:
 
-![[ubuntu.png]]
+![ubuntu](assets/ubuntu.png)
 
 > [!Warning] to use the private key file it must be restricted to certain permissions. You might need to `chmod 400 key.pem`.
 
 
-![[neofetch.png]]
+![neofetch](assets/neofetch.png)
 ## Creation of a Windows Server 2022 instance
 Create the [[windows_config.pdf|instance]] and associate the elastic IP address.
 
 To connect via RDP protocol, you can use `remmina` on [arch Linux](https://archlinux.org/):
 
-![[remmina.png]]
+![remmina](assets/remmina.png)
 
 Here is the connection being established:
 
-![[windows.png]]
+![windows](assets/windows.png)
 
 And here you can see the instance specs:
 
-![[windows_specs.png]]
+![windows_specs](windows_specs.png)
 
 End of the preliminary tasks. The following activities are in the laboratory report [[L01.pdf]].
 
