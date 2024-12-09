@@ -33,14 +33,14 @@ Finally, establish the `ssh` connection:
 
 ![ubuntu](assets/ubuntu.png)
 
-> [!Warning] to use the private key file it must be restricted to certain permissions. You might need to `chmod 400 key.pem`.
+> [!Note] to use the private key file it must be restricted to certain permissions. You might need to `chmod 400 key.pem`.
 
 
 ![neofetch](assets/neofetch.png)
 ## Creation of a Windows Server 2022 instance
 Create the [instance](windows_config.pdf) and associate the elastic IP address.
 
-To connect via RDP protocol, you can use `remmina` on [arch Linux](https://archlinux.org/):
+To connect via RDP protocol, you can use `remmina` on [Linux](https://archlinux.org/packages/?q=remmina):
 
 ![remmina](assets/remmina.png)
 
