@@ -51,7 +51,7 @@ And here you can see the instance specs:
 
 ![windows_specs](assets/windows_specs.png)
 
-End of the preliminary tasks. The following activities are in the laboratory report [L01.pdf](assets/L01.pdf).
+End of the preliminary tasks. The following activities are in the laboratory report [L01.pdf](L01.pdf).
 
 ----
 # References 
