@@ -13,7 +13,7 @@ According to the VPC's route table private subnets have access to the internet.
 ### Creation of two elastic IPs
 Following this [video instructions](https://youtu.be/5ZJTESbN9lI), create the elastic IP addresses:
 
-![elastic_ips](elastic_ips.png)
+![elastic_ips](assets/elastic_ips.png)
 ## Creation of a GNU/Linux instance
 Then create the [instance](assets/ubuntu_config.pdf) and link the elastic IP address.
 
@@ -38,7 +38,7 @@ Finally, establish the `ssh` connection:
 
 ![neofetch](assets/neofetch.png)
 ## Creation of a Windows Server 2022 instance
-Create the [[windows_config.pdf|instance]] and associate the elastic IP address.
+Create the [instance](windows_config.pdf) and associate the elastic IP address.
 
 To connect via RDP protocol, you can use `remmina` on [arch Linux](https://archlinux.org/):
 
@@ -50,9 +50,9 @@ Here is the connection being established:
 
 And here you can see the instance specs:
 
-![windows_specs](windows_specs.png)
+![windows_specs](assets/windows_specs.png)
 
-End of the preliminary tasks. The following activities are in the laboratory report [[L01.pdf]].
+End of the preliminary tasks. The following activities are in the laboratory report [L01.pdf](assets/L01.pdf).
 
 ----
 # References 
