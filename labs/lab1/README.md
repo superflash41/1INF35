@@ -1,9 +1,7 @@
 # Preliminary activities
 ## Creation of a virtual network infrastructure in AWS
 ### Creation of a VPC
-Following the [video instructions](https://youtu.be/ApGz8tpNLgo), get this [[vpc_config.pdf|config setup]] on the VPC.
-
-Here is the preview:
+Following the [video instructions](https://youtu.be/ApGz8tpNLgo), get this [config setup](assets/vpc_config.pdf) on the VPC.
 
 ![vpc_preview](assets/vpc_preview.png)
 
@@ -17,7 +15,7 @@ Following this [video instructions](https://youtu.be/5ZJTESbN9lI), create the el
 ## Creation of a GNU/Linux instance
 Then create the [instance](assets/ubuntu_config.pdf) and link the elastic IP address.
 
-The command to `ssh` into an EC2 instance goes as follows:
+The command to `ssh` into the EC2 instance goes as follows:
 ```bash
 ssh -i /path/to/key.pem user@instance-public-dns
 ```
@@ -37,9 +35,9 @@ Finally, establish the `ssh` connection:
 
 ![neofetch](assets/neofetch.png)
 ## Creation of a Windows Server 2022 instance
-Create the [instance](windows_config.pdf) and associate the elastic IP address.
+Create the [instance](assets/windows_config.pdf) and associate the elastic IP address.
 
-To connect via RDP protocol, you can use `remmina` on [Linux](https://archlinux.org/packages/?q=remmina):
+To connect via RDP protocol, I used `remmina` on [Linux](https://archlinux.org/packages/?q=remmina):
 
 ![remmina](assets/remmina.png)
 
@@ -47,11 +45,11 @@ Here is the connection being established:
 
 ![windows](assets/windows.png)
 
-And here you can see the instance specs:
+And here are the instance specs:
 
 ![windows_specs](assets/windows_specs.png)
 
-End of the preliminary tasks. The following activities are in the laboratory report [L01.pdf](L01.pdf).
+End of the preliminary tasks. The following activities are in the [lab's report](L01.pdf).
 
 ----
 # References 
